@@ -21,7 +21,7 @@ setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     license='MIT',
-    keywords=['pylint', 'plugin', 'protobuf'],
+    keywords=['pylint', 'plugin', 'protobuf>=6.33.6'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Programming Language :: Python :: 3',
@@ -34,7 +34,7 @@ setup(
     install_requires=[
         'astroid',
         'pylint',
-        'protobuf',
+        'protobuf>=6.33.6',
     ],
     zip_safe=False
 )
